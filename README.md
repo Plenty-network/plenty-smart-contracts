@@ -33,6 +33,7 @@ Staking Contract is reward token distribution contract inspired from Synthetix d
 
 Volatile Swap is an automated market maker which facilitates in exchanging of two tokens irrespective of their nature.
 
+
 ## StableSwap
 
 StableSwap is an automated marketm maker which helps in exchanging in similar priced assets in an optimised manner by reducing slippage irrespective of the trade size.
@@ -63,7 +64,15 @@ For Deployment of the smart contract, either online ide or CLI can be utilised.
 
 ```
 
+## Testing 
 
+For testing of the smart contracts, either custom testcase can be written and smart contracts be imported into the respective file 
+and various scenarios can be evaluted. 
+
+```
+~/smartpy-cli/SmartPy.sh test <custom-test-case-file> <output-directory>
+
+```
 
 
 *NOTE:
